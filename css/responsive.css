@@ -88,6 +88,13 @@
 }
 
 @media (max-width:576px) {
+    .banner_btn_height {
+        min-height: unset !important;
+    }
+    .btn {
+        padding: 12px 10px;
+        font-size: 11px;
+    }
     .pie_chart_over_img {
         width: 22%;
         top: 42.4%;
