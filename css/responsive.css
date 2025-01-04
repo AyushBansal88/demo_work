@@ -142,11 +142,17 @@
     .common_section {
         padding: 35px 0;
     }
+    .banner_input {
+        width: 130px;
+    }
 }
 
 @media (max-width:470px) {
     .who_we_are_img_div {
         min-height: 300px;
+    }
+    .banner_input {
+        width: 75px;
     }
 }
 
