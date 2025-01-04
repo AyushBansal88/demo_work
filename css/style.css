@@ -754,6 +754,11 @@ textarea:focus {
   color: #0A081F !important;
 }
 
+
+.card.contact_card:hover .accordion-button::after {
+  filter: brightness(0);
+}
+
 .card.contact_card,
 .card.custom_card {
   position: relative;
