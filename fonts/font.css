@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'DM_Mono';
+    src: url('DMMono-Light.eot');
+    src: local('DM Mono Light'), local('DMMono-Light'),
+        url('DMMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('DMMono-Light.woff2') format('woff2'),
+        url('DMMono-Light.woff') format('woff'),
+        url('DMMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Mono';
+    src: url('DMMono-Medium.eot');
+    src: local('DM Mono Medium'), local('DMMono-Medium'),
+        url('DMMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DMMono-Medium.woff2') format('woff2'),
+        url('DMMono-Medium.woff') format('woff'),
+        url('DMMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Mono';
+    src: url('DMMono-Regular.eot');
+    src: local('DM Mono Regular'), local('DMMono-Regular'),
+        url('DMMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DMMono-Regular.woff2') format('woff2'),
+        url('DMMono-Regular.woff') format('woff'),
+        url('DMMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-ExtraBold.eot');
+    src: local('Geist ExtraBold'), local('Geist-ExtraBold'),
+        url('Geist-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Geist-ExtraBold.woff2') format('woff2'),
+        url('Geist-ExtraBold.woff') format('woff'),
+        url('Geist-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Light.eot');
+    src: local('Geist Light'), local('Geist-Light'),
+        url('Geist-Light.eot?#iefix') format('embedded-opentype'),
+        url('Geist-Light.woff2') format('woff2'),
+        url('Geist-Light.woff') format('woff'),
+        url('Geist-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Medium.eot');
+    src: local('Geist Medium'), local('Geist-Medium'),
+        url('Geist-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Geist-Medium.woff2') format('woff2'),
+        url('Geist-Medium.woff') format('woff'),
+        url('Geist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Black.eot');
+    src: local('Geist Black'), local('Geist-Black'),
+        url('Geist-Black.eot?#iefix') format('embedded-opentype'),
+        url('Geist-Black.woff2') format('woff2'),
+        url('Geist-Black.woff') format('woff'),
+        url('Geist-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-ExtraLight.eot');
+    src: local('Geist ExtraLight'), local('Geist-ExtraLight'),
+        url('Geist-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Geist-ExtraLight.woff2') format('woff2'),
+        url('Geist-ExtraLight.woff') format('woff'),
+        url('Geist-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Bold.eot');
+    src: local('Geist Bold'), local('Geist-Bold'),
+        url('Geist-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Geist-Bold.woff2') format('woff2'),
+        url('Geist-Bold.woff') format('woff'),
+        url('Geist-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-Black.eot');
+    src: local('Inter 18pt Black'), local('Inter18pt-Black'),
+        url('Inter18pt-Black.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Black.woff2') format('woff2'),
+        url('Inter18pt-Black.woff') format('woff'),
+        url('Inter18pt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-SemiBold.eot');
+    src: local('Geist SemiBold'), local('Geist-SemiBold'),
+        url('Geist-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Geist-SemiBold.woff2') format('woff2'),
+        url('Geist-SemiBold.woff') format('woff'),
+        url('Geist-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Regular.eot');
+    src: local('Geist Regular'), local('Geist-Regular'),
+        url('Geist-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Geist-Regular.woff2') format('woff2'),
+        url('Geist-Regular.woff') format('woff'),
+        url('Geist-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Thin.eot');
+    src: local('Geist Thin'), local('Geist-Thin'),
+        url('Geist-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Geist-Thin.woff2') format('woff2'),
+        url('Geist-Thin.woff') format('woff'),
+        url('Geist-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-ExtraBold.eot');
+    src: local('Inter 18pt ExtraBold'), local('Inter18pt-ExtraBold'),
+        url('Inter18pt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-ExtraBold.woff2') format('woff2'),
+        url('Inter18pt-ExtraBold.woff') format('woff'),
+        url('Inter18pt-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-Bold.eot');
+    src: local('Inter 18pt Bold'), local('Inter18pt-Bold'),
+        url('Inter18pt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Bold.woff2') format('woff2'),
+        url('Inter18pt-Bold.woff') format('woff'),
+        url('Inter18pt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-ExtraLight.eot');
+    src: local('Inter 18pt ExtraLight'), local('Inter18pt-ExtraLight'),
+        url('Inter18pt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-ExtraLight.woff2') format('woff2'),
+        url('Inter18pt-ExtraLight.woff') format('woff'),
+        url('Inter18pt-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-Light.eot');
+    src: local('Inter 18pt Light'), local('Inter18pt-Light'),
+        url('Inter18pt-Light.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Light.woff2') format('woff2'),
+        url('Inter18pt-Light.woff') format('woff'),
+        url('Inter18pt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-Medium.eot');
+    src: local('Inter 18pt Medium'), local('Inter18pt-Medium'),
+        url('Inter18pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Medium.woff2') format('woff2'),
+        url('Inter18pt-Medium.woff') format('woff'),
+        url('Inter18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-Thin.eot');
+    src: local('Inter 18pt Thin'), local('Inter18pt-Thin'),
+        url('Inter18pt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Thin.woff2') format('woff2'),
+        url('Inter18pt-Thin.woff') format('woff'),
+        url('Inter18pt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Bold.eot');
+    src: local('Manrope Bold'), local('Manrope-Bold'),
+        url('Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-Bold.woff2') format('woff2'),
+        url('Manrope-Bold.woff') format('woff'),
+        url('Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-SemiBold.eot');
+    src: local('Inter 18pt SemiBold'), local('Inter18pt-SemiBold'),
+        url('Inter18pt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-SemiBold.woff2') format('woff2'),
+        url('Inter18pt-SemiBold.woff') format('woff'),
+        url('Inter18pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter18pt-Regular.eot');
+    src: local('Inter 18pt Regular'), local('Inter18pt-Regular'),
+        url('Inter18pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Regular.woff2') format('woff2'),
+        url('Inter18pt-Regular.woff') format('woff'),
+        url('Inter18pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Medium.eot');
+    src: local('Manrope Medium'), local('Manrope-Medium'),
+        url('Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-Medium.woff2') format('woff2'),
+        url('Manrope-Medium.woff') format('woff'),
+        url('Manrope-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-ExtraLight.eot');
+    src: local('Manrope ExtraLight'), local('Manrope-ExtraLight'),
+        url('Manrope-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-ExtraLight.woff2') format('woff2'),
+        url('Manrope-ExtraLight.woff') format('woff'),
+        url('Manrope-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-ExtraBold.eot');
+    src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
+        url('Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-ExtraBold.woff2') format('woff2'),
+        url('Manrope-ExtraBold.woff') format('woff'),
+        url('Manrope-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Light.eot');
+    src: local('Manrope Light'), local('Manrope-Light'),
+        url('Manrope-Light.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-Light.woff2') format('woff2'),
+        url('Manrope-Light.woff') format('woff'),
+        url('Manrope-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-SemiBold.eot');
+    src: local('Manrope SemiBold'), local('Manrope-SemiBold'),
+        url('Manrope-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-SemiBold.woff2') format('woff2'),
+        url('Manrope-SemiBold.woff') format('woff'),
+        url('Manrope-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Regular.eot');
+    src: local('Manrope Regular'), local('Manrope-Regular'),
+        url('Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-Regular.woff2') format('woff2'),
+        url('Manrope-Regular.woff') format('woff'),
+        url('Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
