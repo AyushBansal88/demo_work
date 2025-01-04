@@ -577,7 +577,7 @@ input.banner_input:focus {
   background-size: 90% 50% , cover;
   border-bottom: 1px solid #B7B7B7B8;
   border-top: 1px solid #B7B7B7B8;
-  scroll-margin-top: 50px;
+  scroll-margin-top: 40px;
 }
 
 .about_section_card{
