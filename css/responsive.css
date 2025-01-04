@@ -1,0 +1,169 @@
+@media (min-width:576px) and (max-width:1799px) {
+    .container {
+        min-width: 94% !important;
+    }
+}
+
+@media (max-width:1199px) {
+    .airdrop_img {
+        /* margin-bottom: 0px;
+        margin-right: 0px; */
+        margin-top: 40px;
+        width: 200px;
+    }
+
+
+    @keyframes img_up_down2 {
+        0% {
+            background-position: 50% 20%, 0% 70%;
+        }
+
+        100% {
+            background-position: 50% 40%, 0% 70%;
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .header_wrapper::after {
+        display: none;
+    }
+
+    .contact_info {
+        min-height: unset;
+    }
+    .who_we_are_img_div {
+        background-size: 30% ,100% 100%;
+        min-height: 570px;
+      }
+}
+
+@media (max-width:768px) {
+
+    /* #cardsContainer {
+        padding: 50px 0 70px 0rem;
+    } */
+    .pie_chart_over_img {
+        width: 80px;
+    }
+    .who_we_are_img_div {
+        background-size: 28% ,100% 100%;
+        min-height: 390px;
+      }
+}
+
+@media (max-width:576px) {
+
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+
+    .airdrop_card h3 {
+        color: #0A081F;
+        font-size: 24px;
+    }
+
+    .heading h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    #chartdiv {
+        height: 240px;
+    }
+
+    .about_dorsin_section .left_side_vector::after {
+        left: -7px;
+    }
+
+    .airdrop_card {
+        padding: 30px 15px 20px;
+    }
+
+    .airdrop_card h4 {
+        font-size: 18px;
+    }
+
+    .slider-card {
+        width: 220px;
+        height: 402px;
+    }
+
+    .bottom_card .date_outer {
+        /* margin-top: -18rem; */
+        margin-bottom: 12rem;
+    }
+
+    .top_card .date_outer {
+        /* margin-bottom: -18rem; */
+        margin-top: 12rem;
+    }
+
+    .timeline {
+        width: 14.6rem;
+    }
+
+    .main_logo {
+        width: 90px;
+    }
+
+    #faqAccordion .accordion-item {
+        padding: 20px 0;
+    }
+
+    .roadmap_img_div {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #08ABED;
+        margin-top: 66px;
+    }
+
+    .roadmap_img_outer_div::after {
+        width: 2px;
+    }
+
+    .roadmap_img_outer_div::before {
+        height: 2px;
+    }
+
+    .roadmap_timeline_section h3 {
+        padding-top: 60px;
+    }
+
+    .aos-animate.roadmap_img_outer_div::before {
+        width: 75%;
+    }
+
+    .roadmap_img_outer_div::before {
+        left: 62%;
+    }
+
+    .common_section {
+        padding: 35px 0;
+    }
+}
+
+@media (max-width:470px) {
+    .who_we_are_img_div {
+        min-height: 300px;
+    }
+}
+
+@media (min-width:1300px) {
+    .banner_section .col_padding_left {
+        padding-left: 9.5rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .banner_section .col_padding_left {
+        padding-left: 6rem;
+    }
+}
+
+@media (min-width:1537px) {
+    #customSlider {
+        display: none;
+    }
+}
